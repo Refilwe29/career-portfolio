@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Refilwe Mabena - CV</title>
+</head>
+<body>
+
+    <h1>Refilwe Mabena</h1>
+
+    <p><strong>Email:</strong> 231013051@mycput.ac.za</p>
+    <p><strong>Phone:</strong> 067 089 1779</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Refilwe29" target="_blank">github.com/Refilwe29</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/refilwemabena-833548335" target="_blank">LinkedIn Profile</a></p>
+    <p><strong>Address:</strong> Cape Town, Western Cape</p>
+
+    <hr>
+
+    <h2>About Me</h2>
+    <p>
+        Final-year IT Diploma student with a strong foundation in software development and financial accounting.
+        Skilled in Java, web technologies, and database management, with a growing interest in technology-driven
+        financial solutions. Eager to contribute to a dynamic team while expanding practical knowledge in a
+        professional environment.
+    </p>
+
+    <hr>
+
+    <h2>Education</h2>
+    <ul>
+        <li>Boitshepo Secondary School – National Senior Certificate (2022)</li>
+        <li>Cape Peninsula University of Technology – Higher Certificate in ICT (2023)</li>
+        <li>Cape Peninsula University of Technology – Diploma in ICT (Applications Development) (2024–2026, Final Year)</li>
+    </ul>
+
+    <hr>
+
+    <h2>Technical Skills</h2>
+
+    <h3>Programming Languages</h3>
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+    </ul>
+
+    <h3>Web Development</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Responsive Web Design</li>
+    </ul>
+
+    <h3>Database</h3>
+    <ul>
+        <li>MySQL</li>
+    </ul>
+
+    <hr>
+
+    <h2>Relevant Coursework</h2>
+    <ul>
+        <li>Financial Accounting</li>
+        <li>E-Commerce Fundamentals</li>
+    </ul>
+
+    <hr>
+
+    <h2>Academic Projects</h2>
+
+    <h3>Helping Hands – Community Assistance App</h3>
+    <p>
+        Developed a community-focused system to help users report and track local issues such as infrastructure problems.
+        Focused on usability, accessibility, and efficient communication between users and authorities.
+    </p>
+
+    <h3>Student Management System</h3>
+    <p>
+        Built a Java-based system using object-oriented programming principles to manage student information.
+        Implemented features like registration, tuition calculation, and inheritance. Applied the Builder design pattern.
+    </p>
+
+    <h3>E-commerce Website</h3>
+    <p>
+        Designed an online store for selling hair products. Implemented product listings, pricing, and user-friendly
+        navigation with a focus on UI/UX and responsive design.
+    </p>
+
+    <h3>Portfolio Website</h3>
+    <p>
+        Developed a personal portfolio to showcase projects and skills. Included structured navigation, responsive
+        design, and well-organized content.
+    </p>
+
+    <hr>
+
+    <h2>References</h2>
+    <p><strong>Ms. Hendricks</strong></p>
+    <p>Lecturer – Business Practice</p>
+    <p>College of Cape Town</p>
+    <p>Email: achendricks@cct.edu.za</p>
+
+</body>
+</html>
