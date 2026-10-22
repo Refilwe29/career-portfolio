@@ -1,1 +1,181 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refilwe Mabena | Agile Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #263449;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #17365d;
+      color: white;
+      padding: 45px 20px;
+      text-align: center;
+    }
+
+    header h1 { margin-bottom: 8px; }
+    header p { margin: 5px 0; }
+
+    nav {
+      background: #ffffff;
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #dce3ed;
+    }
+
+    nav a {
+      color: #17365d;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .intro, .card {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #e0e6ef;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .card h3 { color: #17365d; }
+
+    .card a {
+      display: inline-block;
+      color: #174ea6;
+      font-weight: bold;
+    }
+
+    .note {
+      background: #edf3fb;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #59677b;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Agile Portfolio of Evidence</h1>
+    <p>Refilwe Mabena</p>
+    <p>Diploma in Information and Communication Technology</p>
+    <p>Cape Peninsula University of Technology</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Agile Evidence</a>
+    <a href="#reflection">Learning</a>
+    <a href="README.md">Career Portfolio</a>
+  </nav>
+
+  <main>
+    <section class="intro" id="about">
+      <h2>Welcome to My Portfolio</h2>
+      <p>
+        This portfolio presents evidence of my learning and development
+        in Agile project management. It brings together project artefacts,
+        supporting screenshots and personal reflections.
+      </p>
+      <p>
+        The portfolio covers the Agile Team Charter, User Stories and Tasks,
+        Product Backlog, Sprint Backlog and Agile Logbook.
+      </p>
+    </section>
+
+    <section id="portfolio">
+      <h2>My Agile Assessment</h2>
+      <p>
+        Select a section below to view its evidence and reflection.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>01. Agile Team Charter</h3>
+          <p>Team purpose, roles, values and working agreements.</p>
+          <a href="agile-team-charter.md">View section →</a>
+        </article>
+
+        <article class="card">
+          <h3>02. User Stories and Tasks</h3>
+          <p>User requirements, acceptance criteria and task breakdowns.</p>
+          <a href="user-stories-and-tasks.md">View section →</a>
+        </article>
+
+        <article class="card">
+          <h3>03. Product Backlog</h3>
+          <p>Prioritised requirements, features and improvements.</p>
+          <a href="product-backlog.md">View section →</a>
+        </article>
+
+        <article class="card">
+          <h3>04. Sprint Backlog</h3>
+          <p>Sprint goals, selected tasks and progress.</p>
+          <a href="sprint-backlog.md">View section →</a>
+        </article>
+
+        <article class="card">
+          <h3>05. Agile Logbook</h3>
+          <p>Meeting records, progress, challenges and lessons learned.</p>
+          <a href="agile-logbook.md">View section →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="intro" id="reflection">
+      <h2>My Learning Journey</h2>
+      <p>
+        Through this portfolio, I aim to explain what I learned from
+        the project, how the evidence supports my learning, and what
+        I would improve in future projects.
+      </p>
+      <div class="note">
+        Each section will include supporting evidence and an individual
+        reflection based on my actual project experience.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>CPUT Agile Portfolio of Evidence</p>
+    <p>Refilwe Mabena</p>
+  </footer>
+
+</body>
+</html>
+
