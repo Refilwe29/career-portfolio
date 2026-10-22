@@ -43,19 +43,39 @@ The exact equipment supported will depend on the capacity and compatibility of t
 
 ## 4. Team Goals and Responsibilities
 
-The PowerShare team aims to work collaboratively to plan, develop and evaluate a solution that meets the needs of its intended users.
+The PowerShare team aims to work collaboratively to plan, develop and evaluate a solution that addresses the needs of micro-entrepreneurs affected by power outages.
 
-Team members should:
+### Team Members and Responsibilities
 
-- Understand the problem and the needs of the target users.
-- Identify and prioritise the project's requirements.
-- Break larger requirements into smaller, manageable tasks.
-- Complete assigned work within agreed deadlines.
-- Test the solution and review feedback.
-- Maintain project documentation and evidence of progress.
+**1. Refilwe Mabena – Documentation and Portfolio**
+- Maintain and organise project documentation.
+- Prepare and update the Agile portfolio.
+- Ensure that project sections, reflections and supporting evidence are organised.
+- Record project progress and document relevant decisions.
 
-**Team roles:** Add the actual names and responsibilities assigned to each PowerShare team member here.
+**2. Mojalefa – Research and Requirements**
+- Research the challenges micro-entrepreneurs experience during power outages.
+- Identify the needs of PowerShare's target users.
+- Help define and document project requirements.
+- Contribute to prioritising requirements according to user needs.
 
+**3. Magdeline – Testing and Feedback**
+- Help identify areas of the proposed solution that require testing.
+- Gather and review feedback where available.
+- Identify problems or areas for improvement.
+- Contribute to evaluating whether the solution meets the identified requirements.
+
+### Shared Team Responsibilities
+
+All team members share responsibility for:
+- Participating in planning and project discussions.
+- Completing agreed tasks within the team's deadlines.
+- Communicating progress, challenges and delays.
+- Reviewing work and providing constructive feedback.
+- Keeping project decisions and evidence accurate.
+- Prioritising the needs of micro-entrepreneurs throughout the project.
+
+The team will work together to ensure that responsibilities are understood, tasks are managed effectively and project decisions support the overall goals of PowerShare.
 ## 5. Team Values
 
 The team agrees to follow these values:
@@ -90,12 +110,6 @@ The product backlog records and prioritises the features and requirements needed
 
 ## 8. Evidence
 
-Evidence for this section may include:
-
-- A screenshot of the PowerShare team charter or agreed responsibilities.
-- A screenshot of the team's Trello, Jira or other task board.
-- A screenshot of an actual team planning meeting or discussion.
-- Evidence showing how the team agreed on goals and working practices.
 
 **Insert actual screenshots below.**
 
