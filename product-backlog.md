@@ -1,3 +1,7 @@
+---
+layout: default
+title: Product Backlog
+---
 
 # PowerShare – Product Backlog
 
