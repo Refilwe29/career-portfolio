@@ -57,7 +57,8 @@ The team should:
 
 ## 5. Evidence
 
-Suggested filename: `PowerShare Product Backlog Dashboard.png`
+
+![PowerShare Product Backlog Dashboard](evidence/PowerShare%20Product%20Backlog%20Dashboard.png)
 
 ## 6. Personal Reflection
 
