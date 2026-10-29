@@ -1,3 +1,7 @@
+---
+layout: default
+title: Agile Team Charter
+---
 
 # Agile Team Charter – PowerShare
 
