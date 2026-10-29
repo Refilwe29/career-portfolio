@@ -57,9 +57,8 @@ Track each task using the team's actual project management board.
 
 ## 5. Evidence
 
-Insert an actual screenshot of the PowerShare sprint board from the team's project management tool.
+![Sprint Backlog](evidence/sprint%20backlog.png)
 
-Suggested image path: `evidence/sprint-backlog.png`
 
 ## 6. Personal Reflection
 
