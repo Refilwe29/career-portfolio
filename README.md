@@ -1,59 +1,39 @@
-# 💜 Refilwe Mabena | Career Portfolio 💛
-
-<p align="center">
-  <strong>CAREER PREPAREDNESS · TECHNICAL SKILLS · PROFESSIONAL GROWTH</strong>
-</p>
-
-<p align="center">
-  Welcome to my career portfolio! This repository showcases my CV, technical skills, and mock interview as I prepare for opportunities in the technology industry.
-</p>
-
+---
+layout: default
+title: Career Portfolio
+permalink: /README.md
 ---
 
-## 💜 About Me
-
-I am a final-year Diploma in Information and Communication Technology (Applications Development) student at Cape Peninsula University of Technology (CPUT).
-
-I am interested in software development, financial accounting, web technologies, and database management. I am especially interested in how technology can support financial processes and solve real-world business problems.
-
-My goal is to apply my knowledge, gain practical experience, and continue growing both technically and professionally.
-
-## 💛 Technical Skills
-
-| Area | Skills |
-|---|---|
-| Programming | Java, JavaScript, Python |
-| Databases | SQL |
-| Web development | HTML, CSS |
-
-## 💜 My CV
-
-Review my CV for an overview of my education, technical skills, and career interests.
-
-**[📄 Download My CV](./cv.pdf)**
-
-## 💛 Mock Interview
-
-My mock interview gave me an opportunity to practice discussing my skills, strengths, and professional goals.
-
-**[▶️ Watch My Mock Interview](https://drive.google.com/file/d/1B-dNoXruelvNa7dHwnIgUmnTmq1ZrraN/view?usp=sharing)**
-
-## 💜 Contact Information
-
-- **Email:** [mabenarefilwe1@gmail.com](mailto:mabenarefilwe1@gmail.com)
-- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/refilwe-mabena-833548335)
-- **GitHub:** [Visit my profile](https://github.com/Refilwe29)
-
-## 💛 Reflection and Conclusion
-
-Creating this portfolio helped me understand the importance of presenting myself professionally online. I learned to organize information clearly using Markdown and improve the structure of my work.
-
-Preparing my CV encouraged me to reflect on my skills, education, and career goals. Recording the mock interview was challenging at first, but it helped me practice talking about myself and build confidence.
-
-Overall, this project contributed to my technical and personal development and helped prepare me for future opportunities in the technology industry.
-
----
-
-<p align="center">
-  💜 <em>Learning, growing, and building my future in technology.</em> 💛
-</p>
+no im lying give styling to my readme.md
+tis is how it looks
+\# Refilwe Mabena's career-portfolio\
+GitHub portfolio showcasing my career preparedness, including my CV, Markdown skills, and mock interview video.\
+\
+\## \*\*About me\*\* \
+Final-year ICT Diploma student with strong foundation in software development and financial accounting. Skilled in java,web\
+technologies, and database management, with growinginterest in in technology-driven financial solution. Eager tocontribute to a dynamic team while expanding practicalknowledge in professional environment.\
+\
+\## \*\*Technical Skills\*\*\
+&#x20; \- Java\
+&#x20; \- Java script\
+&#x20; \- Python\
+&#x20; \- SQL\
+&#x20; \- HTML & CSS\
+&#x20;   \
+\
+\## \*\*Showcase CV\*\*\
+You can view my CV here:\
+&#x20; [Download My CV]\(./cv.pdf)\
+\
+&#x20;\## \*\*Mock interview video\*\*\
+[Watch My Mock Interview]\(https\://drive.google.com/file/d/1B-dNoXruelvNa7dHwnIgUmnTmq1ZrraN/view?usp=sharing)\
+\
+&#x20; \## \*\*Contact information\*\*\
+&#x20;     email: 231013051@mycput.ac.za\
+&#x20;     Linkedln: https\://www\.linkedin.com/in/refilwe-mabena-833548335\
+&#x20;     GitHub username: https\://github.com/Refilwe29/career-portfolio\
+\
+&#x20;\## \*\*Conclusion\*\*\
+Working on this portfolio helped me understand the importance of presenting myself professionally online. I learned how to use    Markdown to organise my work clearly and make my GitHub repository look structured and easy to navigate.\
+The process of creating my CV made me reflect on my skills and what I can offer as a future developer. Recording the mock interview was a bit challenging at first, but it helped me become more confident in talking about myself.\
+Overall, this project helped me grow both technically and personally, and it has prepared me to take a step closer towards real-world opportunities in the tech industry.\
