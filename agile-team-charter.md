@@ -117,7 +117,7 @@ The product backlog records and prioritises the features and requirements needed
 
 **Insert actual screenshots below.**
 
-![PowerShare team charter evidence][(PowerShare Team Charter](https://github.com/Refilwe29/career-portfolio/blob/main/evidence/PowerShare%20Team%20Charter.png)
+![PowerShare team charter evidence](evidence/PowerShare%20Team%20Charter.png)
 
 ## 9. Personal Reflection
 
