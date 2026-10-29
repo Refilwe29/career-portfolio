@@ -108,8 +108,7 @@ The user stories should be prioritised according to their importance to the core
 
 ## 4. Evidence
 
-![PowerShare team charter evidence](evidence/PowerShare Project Kanban Board.png)
-
+![PowerShare project Kanban board](evidence/PowerShare%20Project%20Kanban%20Board.png)
 
 
 ## 5. Personal Reflection
