@@ -145,14 +145,4 @@ This process has strengthened my understanding of requirements analysis, priorit
 
 ## 5. Evidence
 
-Supporting evidence should be added when available:
-
-- A screenshot of the actual PowerShare team charter or agreed team responsibilities.
-- A screenshot of the user stories and tasks recorded in the team's project management tool.
-- A screenshot of the actual product backlog.
-- A screenshot of the actual sprint backlog.
-- Relevant project meeting notes, task updates or GitHub commit history.
-
-Suggested evidence folder: `evidence/`
-
-Only include screenshots and records that genuinely represent the project. The dates above identify the portfolio preparation entries and should be changed if they do not match when the activities actually took place.
+![Agile Logbook](evidence/Agile%20Logbook.png)
