@@ -4,178 +4,366 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Refilwe Mabena | Agile Portfolio</title>
+  <meta name="theme-color" content="#eee5ff">
+  <title>Refilwe Mabena | PowerShare Agile Portfolio</title>
+  <meta name="description" content="Refilwe Mabena's CPUT Agile Portfolio of Evidence for the PowerShare project.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
   <style>
+    :root {
+      --lilac: #8b6acb;
+      --lilac-dark: #5e438e;
+      --lilac-light: #eee5ff;
+      --butter: #fff0a8;
+      --butter-dark: #f0d875;
+      --ink: #302844;
+      --muted: #716a7e;
+      --paper: #fffdfb;
+      --white: #ffffff;
+      --border: #e6dcef;
+      --shadow: 0 12px 35px rgba(83, 58, 122, .09);
+    }
+
     * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f7fb;
-      color: #263449;
-      line-height: 1.7;
+      background: #faf7ff;
+      color: var(--ink);
+      font-family: "DM Sans", Arial, sans-serif;
+      line-height: 1.75;
     }
 
-    header {
-      background: #17365d;
-      color: white;
-      padding: 45px 20px;
-      text-align: center;
+    a { color: var(--lilac-dark); }
+
+    a:focus-visible {
+      outline: 3px solid var(--lilac);
+      outline-offset: 4px;
     }
 
-    header h1 { margin-bottom: 8px; }
-    header p { margin: 5px 0; }
+    .topbar {
+      background: rgba(255, 255, 255, .94);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      backdrop-filter: blur(12px);
+    }
 
     nav {
-      background: #ffffff;
-      padding: 15px;
-      text-align: center;
-      border-bottom: 1px solid #dce3ed;
+      max-width: 1120px;
+      margin: auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
     }
 
-    nav a {
-      color: #17365d;
+    .brand {
+      font-weight: 700;
       text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
+      color: var(--lilac-dark);
     }
+
+    .navlinks {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .navlinks a {
+      text-decoration: none;
+      font-size: .92rem;
+      font-weight: 600;
+    }
+
+    .navlinks a:hover { color: var(--lilac); }
+
+    .hero {
+      padding: 90px 24px 78px;
+      background: linear-gradient(130deg, #eee5ff 0%, #faf7ff 58%, #fff3b8 100%);
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero-inner { max-width: 850px; margin: auto; }
+
+    .eyebrow {
+      display: inline-block;
+      background: var(--white);
+      color: var(--lilac-dark);
+      padding: 7px 15px;
+      border-radius: 999px;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.25;
+      color: var(--ink);
+    }
+
+    h1, h2 { font-family: "Playfair Display", Georgia, serif; }
+
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 4.4rem);
+      margin: 22px 0 14px;
+    }
+
+    h1 span { color: var(--lilac-dark); }
+
+    .hero p {
+      max-width: 670px;
+      margin: 12px auto;
+      color: var(--muted);
+      font-size: 1.06rem;
+    }
+
+    .hero .subtitle { color: var(--ink); font-weight: 600; }
+
+    .button {
+      display: inline-block;
+      margin-top: 23px;
+      padding: 12px 22px;
+      background: var(--lilac-dark);
+      color: var(--white);
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      box-shadow: var(--shadow);
+    }
+
+    .button:hover { background: var(--lilac); }
 
     main {
-      max-width: 1000px;
-      margin: 30px auto;
-      padding: 0 20px;
+      width: min(1060px, calc(100% - 40px));
+      margin: 56px auto;
     }
 
-    .intro, .card {
-      background: white;
-      padding: 22px;
-      border-radius: 12px;
-      border: 1px solid #e0e6ef;
-      margin-bottom: 20px;
+    section { scroll-margin-top: 90px; margin-bottom: 58px; }
+
+    .section-heading {
+      margin-bottom: 22px;
     }
+
+    .section-heading h2 {
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      margin: 0 0 8px;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .about-card, .portfolio-card, .learning-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .about-card, .learning-card { padding: 28px; }
 
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
+      gap: 20px;
     }
 
-    .card h3 { color: #17365d; }
+    .portfolio-card {
+      padding: 24px;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
 
-    .card a {
+    .portfolio-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px rgba(83, 58, 122, .14);
+    }
+
+    .number {
+      display: inline-grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      background: var(--lilac-light);
+      color: var(--lilac-dark);
+      font-weight: 700;
+    }
+
+    .portfolio-card:nth-child(even) .number { background: var(--butter); }
+
+    .portfolio-card h3 { margin: 17px 0 8px; font-size: 1.2rem; }
+
+    .portfolio-card p { color: var(--muted); font-size: .96rem; }
+
+    .view-link {
       display: inline-block;
-      color: #174ea6;
-      font-weight: bold;
+      margin-top: 8px;
+      font-weight: 700;
+      text-decoration: none;
     }
 
-    .note {
-      background: #edf3fb;
-      padding: 15px;
-      border-radius: 8px;
+    .view-link:hover { text-decoration: underline; }
+
+    .learning-card {
+      background: linear-gradient(120deg, #eee5ff, #fff9dc);
+    }
+
+    .learning-card h2 { margin-top: 0; }
+
+    .pill {
+      display: inline-block;
+      margin: 5px 5px 0 0;
+      padding: 6px 12px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: .88rem;
     }
 
     footer {
       text-align: center;
-      padding: 25px;
-      color: #59677b;
+      padding: 30px 20px;
+      color: var(--muted);
+      background: var(--white);
+      border-top: 1px solid var(--border);
     }
 
+    footer p { margin: 5px; }
+
     @media (max-width: 600px) {
-      nav a {
-        display: inline-block;
-        margin: 5px;
-      }
+      nav { justify-content: center; }
+      .navlinks { justify-content: center; gap: 12px; }
+      .hero { padding: 65px 20px; }
+      main { width: min(100% - 28px, 1060px); margin: 35px auto; }
+      .about-card, .learning-card, .portfolio-card { padding: 21px; }
     }
   </style>
 </head>
 <body>
+  <div class="topbar">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="#top">Refilwe Mabena</a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#portfolio">Agile Portfolio</a>
+        <a href="#reflection">Learning</a>
+        <a href="README.md">Career Portfolio</a>
+      </div>
+    </nav>
+  </div>
 
-  <header>
-    <h1>My Agile Portfolio of Evidence</h1>
-    <p>Refilwe Mabena</p>
-    <p>Diploma in Information and Communication Technology</p>
-    <p>Cape Peninsula University of Technology</p>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <span class="eyebrow">CPUT · Agile Portfolio of Evidence</span>
+      <h1>My Agile Journey,<br><span>My Learning in Action.</span></h1>
+      <p class="subtitle">Diploma in Information and Communication Technology</p>
+      <p>Cape Peninsula University of Technology</p>
+      <p>This portfolio presents my learning, planning artefacts and reflections from the PowerShare project.</p>
+      <a class="button" href="#portfolio">Explore my portfolio ↓</a>
+    </div>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#portfolio">Agile Evidence</a>
-    <a href="#reflection">Learning</a>
-    <a href="README.md">Career Portfolio</a>
-  </nav>
-
   <main>
-    <section class="intro" id="about">
-      <h2>Welcome to My Portfolio</h2>
-      <p>
-        This portfolio presents evidence of my learning and development
-        in Agile project management. It brings together project artefacts,
-        supporting screenshots and personal reflections.
-      </p>
-      <p>
-        The portfolio covers the Agile Team Charter, User Stories and Tasks,
-        Product Backlog, Sprint Backlog and Agile Logbook.
-      </p>
+    <section id="about">
+      <div class="section-heading">
+        <h2>A little about this portfolio</h2>
+        <p>Organised work, clear evidence and honest reflection.</p>
+      </div>
+      <div class="about-card">
+        <p>
+          Welcome! This portfolio brings together five Agile assessment sections
+          for PowerShare, a proposed pay-as-you-go portable energy rental service
+          intended to support micro-entrepreneurs during power outages.
+        </p>
+        <p>
+          Each section explains a different part of Agile planning. Supporting
+          screenshots should be genuine project evidence, and reflections should
+          describe my actual learning and contributions.
+        </p>
+        <div>
+          <span class="pill">Agile planning</span>
+          <span class="pill">Requirements</span>
+          <span class="pill">Backlog management</span>
+          <span class="pill">Reflection</span>
+        </div>
+      </div>
     </section>
 
     <section id="portfolio">
-      <h2>My Agile Assessment</h2>
-      <p>
-        Select a section below to view its evidence and reflection.
-      </p>
+      <div class="section-heading">
+        <h2>My Agile Portfolio</h2>
+        <p>Choose a section to explore its content, evidence and reflection.</p>
+      </div>
 
       <div class="cards">
-        <article class="card">
-          <h3>01. Agile Team Charter</h3>
-          <p>Team purpose, roles, values and working agreements.</p>
-          <a href="agile-team-charter.md">View section →</a>
+        <article class="portfolio-card">
+          <span class="number">01</span>
+          <h3>Agile Team Charter</h3>
+          <p>Project purpose, team responsibilities, values and working agreements.</p>
+          <a class="view-link" href="agile-team-charter.html">View section →</a>
         </article>
 
-        <article class="card">
-          <h3>02. User Stories and Tasks</h3>
-          <p>User requirements, acceptance criteria and task breakdowns.</p>
-          <a href="user-stories-and-tasks.md">View section →</a>
+        <article class="portfolio-card">
+          <span class="number">02</span>
+          <h3>User Stories and Tasks</h3>
+          <p>User needs, acceptance criteria and tasks for the proposed service.</p>
+          <a class="view-link" href="user-stories-and-tasks.html">View section →</a>
         </article>
 
-        <article class="card">
-          <h3>03. Product Backlog</h3>
-          <p>Prioritised requirements, features and improvements.</p>
-          <a href="product-backlog.md">View section →</a>
+        <article class="portfolio-card">
+          <span class="number">03</span>
+          <h3>Product Backlog</h3>
+          <p>A prioritised list of proposed features and requirements.</p>
+          <a class="view-link" href="product-backlog.html">View section →</a>
         </article>
 
-        <article class="card">
-          <h3>04. Sprint Backlog</h3>
-          <p>Sprint goals, selected tasks and progress.</p>
-          <a href="sprint-backlog.md">View section →</a>
+        <article class="portfolio-card">
+          <span class="number">04</span>
+          <h3>Sprint Backlog</h3>
+          <p>The sprint goal, selected user stories and planned tasks.</p>
+          <a class="view-link" href="sprint-backlog.html">View section →</a>
         </article>
 
-        <article class="card">
-          <h3>05. Agile Logbook</h3>
-          <p>Meeting records, progress, challenges and lessons learned.</p>
-          <a href="agile-logbook.md">View section →</a>
+        <article class="portfolio-card">
+          <span class="number">05</span>
+          <h3>Agile Logbook</h3>
+          <p>Progress, challenges, lessons learned and supporting records.</p>
+          <a class="view-link" href="agile-logbook.html">View section →</a>
         </article>
       </div>
     </section>
 
-    <section class="intro" id="reflection">
-      <h2>My Learning Journey</h2>
-      <p>
-        Through this portfolio, I aim to explain what I learned from
-        the project, how the evidence supports my learning, and what
-        I would improve in future projects.
-      </p>
-      <div class="note">
-        Each section will include supporting evidence and an individual
-        reflection based on my actual project experience.
+    <section id="reflection">
+      <div class="learning-card">
+        <h2>My Learning Journey</h2>
+        <p>
+          Preparing this portfolio has helped me explore how Agile artefacts
+          support teamwork, requirements analysis and project planning.
+          I am learning to distinguish planned work from completed work and
+          to use evidence to support what I report.
+        </p>
+        <p>
+          My aim is to keep improving how I document decisions, track progress,
+          reflect on challenges and organise project work.
+        </p>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>CPUT Agile Portfolio of Evidence</p>
-    <p>Refilwe Mabena</p>
+    <p><strong>Refilwe Mabena</strong></p>
+    <p>CPUT · Agile Portfolio of Evidence · PowerShare</p>
   </footer>
-
 </body>
 </html>
-
