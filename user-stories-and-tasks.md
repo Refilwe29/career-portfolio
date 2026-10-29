@@ -1,3 +1,7 @@
+---
+layout: default
+title: User Stories and Tasks
+---
 
 # PowerShare – User Stories and Tasks
 
