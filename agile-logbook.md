@@ -1,3 +1,7 @@
+---
+layout: default
+title: Agile Logbook
+---
 
 # PowerShare – Agile Logbook
 
